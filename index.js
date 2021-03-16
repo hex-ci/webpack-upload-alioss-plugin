@@ -196,7 +196,7 @@ class WebpackPlugin {
   }
 
   apply(compiler) {
-    compiler.hooks.afterEmit.tap('webpack-alioss-upload-plugin', () => {
+    compiler.hooks.afterEmit.tap('webpack-upload-alioss-plugin', () => {
       gulp.series(
         (cb) => {
           console.log('============== 开始上传 ==============')
