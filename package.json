@@ -1,5 +1,5 @@
 {
-  "name": "webpack-alioss-upload-plugin",
+  "name": "webpack-upload-alioss-plugin",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hex-ci/webpack-alioss-upload-plugin.git"
+    "url": "git+https://github.com/hex-ci/webpack-upload-alioss-plugin.git"
   },
   "keywords": [
     "webpack"
@@ -16,9 +16,9 @@
   "author": "Hex",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hex-ci/webpack-alioss-upload-plugin/issues"
+    "url": "https://github.com/hex-ci/webpack-upload-alioss-plugin/issues"
   },
-  "homepage": "https://github.com/hex-ci/webpack-alioss-upload-plugin#readme",
+  "homepage": "https://github.com/hex-ci/webpack-upload-alioss-plugin#readme",
   "devDependencies": {
     "@babel/eslint-parser": "^7.13.10",
     "eslint": "^7.22.0"

@@ -1,6 +1,6 @@
-# webpack-alioss-upload-plugin
+# webpack-upload-alioss-plugin
 
-[![npm version](https://badge.fury.io/js/webpack-alioss-upload-plugin.svg)](https://badge.fury.io/js/webpack-alioss-upload-plugin)
+[![npm version](https://badge.fury.io/js/webpack-upload-alioss-plugin.svg)](https://badge.fury.io/js/webpack-upload-alioss-plugin)
 
 用于上传 webpack 生成的所有文件到阿里云 OSS 的 webpack 插件。本插件会自动缓存已经上传过的文件，不会重复上传，提高上传速度。
 
@@ -9,7 +9,7 @@
 ## 安装
 
 ```console
-$ npm install webpack-alioss-upload-plugin --save-dev
+$ npm install webpack-upload-alioss-plugin --save-dev
 ```
 
 ## 使用
@@ -19,11 +19,11 @@ $ npm install webpack-alioss-upload-plugin --save-dev
 **webpack.config.js**
 
 ```js
-const WebpackAliossUploadPlugin = require('webpack-alioss-upload-plugin');
+const WebpackUploadAliossPlugin = require('webpack-upload-alioss-plugin');
 
 module.exports = {
   plugins: [
-    new WebpackAliossUploadPlugin({
+    new WebpackUploadAliossPlugin({
       oss: {
         accessKeyId: '',
         accessKeySecret: '',
