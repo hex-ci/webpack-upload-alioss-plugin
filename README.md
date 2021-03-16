@@ -1,5 +1,7 @@
 # webpack-alioss-upload-plugin
 
+[![npm version](https://badge.fury.io/js/webpack-alioss-upload-plugin.svg)](https://badge.fury.io/js/webpack-alioss-upload-plugin)
+
 用于上传 webpack 生成的所有文件到阿里云 OSS 的 webpack 插件。本插件会自动缓存已经上传过的文件，不会重复上传，提高上传速度。
 
 插件会设置好已上传文件的浏览器缓存和 CORS 设置。
